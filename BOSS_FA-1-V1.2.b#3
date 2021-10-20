@@ -627,7 +627,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="7.89" y="7.689" size="0.8128" layer="27" ratio="12" rot="R270"/>
 </element>
 <element name="C2" library="mb_caps-box" package="072X035" value="470nF" x="7.62" y="36.068" smashed="yes">
-<attribute name="VALUE" x="7.9088" y="34.475" size="0.8128" layer="27" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="9.213" y="35.3408" size="0.8128" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="C3" library="mb_caps-box" package="072X025" value="47nF" x="6.35" y="12.7" smashed="yes" rot="R180">
 <attribute name="VALUE" x="7.689" y="12.557" size="0.8128" layer="27" ratio="12" rot="R180"/>
