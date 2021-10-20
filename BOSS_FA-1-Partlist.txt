@@ -1,52 +1,47 @@
 Partlist
 
-Exported from BOSS_FA-1.brd at 5/9/15 7:09 PM
+Exported from BOSS_FA-1-V1.2.brd at 10/19/21 9:27 PM
 
-EAGLE Version 7.2.0 Copyright (c) 1988-2014 CadSoft
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
 
 Assembly variant: 
 
-Part     Value          Package       Library         Position (inch)       Orientation
+Part      Value          Package       Library         Position (mil)        Orientation
 
-+9V      +9V(T)         SQUARE        mb_supply       (1.85 0.1)            R0
-3MM      LED3MM         LED3MM        mb_diodes       (1 0.1)               R180
-BASS     B50K           16MM_PCB_PADS mb_pots         (0.4 0.675)           R0
-C1       10nF           072X025       mb_caps-box     (0.35 0.25)           R270
-C2       470nF          072X035       mb_caps-box     (0.25 1.5)            R0
-C3       47nF           072X025       mb_caps-box     (0.25 0.5)            R180
-C4       10uF           050_020_1     mb_caps-electro (1.1 1.1)             R180
-C5       10uF           050_020_1     mb_caps-electro (1.05 0.85)           R90
-C6       33nF           072X025       mb_caps-box     (0.3 0.85)            R0
-C7       33nF           072X025       mb_caps-box     (0.75 0.95)           R180
-C8       5.6nF          072X025       mb_caps-box     (0.75 1.1)            R180
-C9       5.6nF          072X025       mb_caps-box     (1.35 0.45)           R0
-C10      10uF           050_020_1     mb_caps-electro (1.05 0.55)           R0
-C11      10uF           050_020_1     mb_caps-electro (1.3 1.5)             R270
-C12      100uF          063_025       mb_caps-electro (1.8 0.9)             R180
-D1       1N4001         DO41-3        mb_diodes       (1.7 0.375)           R0
-G        GND(T)         SQUARE        mb_supply       (1.7 0.1)             R0
-IC1      JRC4558        DIL08         mb_ics          (1.7 1.35)            R180
-IN       IN(T)          SQUARE        mb_supply       (0.5 0.1)             R0
-L                       SQUARE        mb_supply       (0.75 0.1)            R0
-OUT      OUT(T)         SQUARE        mb_supply       (1.2 0.1)             R0
-Q1       J201           TO92-         mb_trans        (0.5 0.45)            R270
-R1       10k            R0207/3       mb_resistors    (0.25 0.25)           R90
-R2       3M3            R0207/3       mb_resistors    (1.3 0.25)            R0
-R3       10k            R0207/3       mb_resistors    (0.3 1.15)            R0
-R4       470k           R0207/3       mb_resistors    (0.3 1.3)             R180
-R5       15k            R0207/3       mb_resistors    (0.65 1.4)            R270
-R6       470k           R0207/3       mb_resistors    (1.7 1.1)             R0
-R7       8k2            R0207/3       mb_resistors    (0.3 1)               R180
-R8       33k            R0207/3       mb_resistors    (0.75 0.8)            R0
-R9       8k2            R0207/3       mb_resistors    (1.4 0.85)            R180
-R10      10k            R0207/3       mb_resistors    (1.35 1.15)           R90
-R11      470R           R0207/3       mb_resistors    (0.85 0.5)            R270
-R12      100k           R0207/3       mb_resistors    (0.9 0.25)            R0
-R13      22k            R0207/3       mb_resistors    (1.7 0.5)             R0
-R14      6k8            R0207/3       mb_resistors    (1.3 0.35)            R180
-R15      15k            R0207/3       mb_resistors    (1.7 0.25)            R0
-R16      4k7            R0207/3       mb_resistors    (0.65 0.4)            R90
-R17      470k           R0207/3       mb_resistors    (0.15 0.25)           R90
-SW1      SPST           SPST          mb_switches     (1 1.53)              R90
-TREB     B50K           16MM_PCB_PADS mb_pots         (1.6 0.675)           R0
-VOL      A1M            16MM_PCB_PADS mb_pots         (1 1.3)               R180
+BASS-B50K B50K           16MM_PCB_PADS mb_pots         (400 640)             R0
+C1        10nF           072X025       mb_caps-box     (350 250)             R270
+C2        470nF          072X035       mb_caps-box     (300 1420)            R0
+C3        47nF           072X025       mb_caps-box     (250 500)             R180
+C4        10uF           050_020_1     mb_caps-electro (1100 1100)           R180
+C5        10uF           050_020_1     mb_caps-electro (1050 850)            R90
+C6        33nF           072X025       mb_caps-box     (300 850)             R0
+C7        33nF           072X025       mb_caps-box     (750 950)             R180
+C8        5.6nF          072X025       mb_caps-box     (750 1100)            R180
+C9        5.6nF          072X025       mb_caps-box     (1325 495)            R0
+C10       10uF           050_020_1     mb_caps-electro (1050 550)            R0
+C11       10uF           050_020_1     mb_caps-electro (1500 1650)           R270
+C12       100uF          063_025       mb_caps-electro (1800 900)            R180
+D1        1N4001         DO41-3        mb_diodes       (1700 375)            R180
+FAT                      M9040P        mb_switches     (1025 1650)           R270
+IC1       JRC4558        DIL08         mb_ics          (1715 1270)           R180
+MMBFJ201                 SOT23         xc_library      (700 425)             R180
+Q1        J201           TO92-         mb_trans        (500 400)             R270
+R1        10k            R0207/3       mb_resistors    (250 250)             R90
+R2        3M3            R0207/3       mb_resistors    (1300 280)            R0
+R3        10k            R0207/3       mb_resistors    (300 1120)            R0
+R4        470k           R0207/3       mb_resistors    (300 1260)            R180
+R5        15k            R0207/3       mb_resistors    (650 1400)            R270
+R6        470k           R0207/3       mb_resistors    (1260 1470)           R180
+R7        8k2            R0207/3       mb_resistors    (300 980)             R180
+R8        33k            R0207/3       mb_resistors    (750 800)             R0
+R9        8k2            R0207/3       mb_resistors    (1400 850)            R180
+R10       10k            R0207/3       mb_resistors    (1395 1135)           R90
+R11       470R           R0207/3       mb_resistors    (850 500)             R270
+R12       100k           R0207/3       mb_resistors    (600 150)             R0
+R13       22k            R0207/3       mb_resistors    (1700 500)            R0
+R14       6k8            R0207/3       mb_resistors    (1300 380)            R180
+R15       15k            R0207/3       mb_resistors    (1700 250)            R0
+R17       470k           R0207/3       mb_resistors    (150 250)             R90
+TREB-B50K B50K           16MM_PCB_PADS mb_pots         (1600 640)            R0
+U$1       BOARDLINK      BOARDLINK     xc_library      (950 110)             R0
+VOL-A1M   A1M            16MM_PCB_PADS mb_pots         (1025 1300)           R180

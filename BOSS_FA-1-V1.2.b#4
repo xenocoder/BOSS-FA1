@@ -648,13 +648,13 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="20.643" y="27.67" size="0.8128" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="C9" library="mb_caps-box" package="072X025" value="5.6nF" x="33.655" y="12.573" smashed="yes">
-<attribute name="VALUE" x="34.74" y="14.589" size="0.8128" layer="27" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="35.375" y="12.43" size="0.8128" layer="27" ratio="12" rot="R180"/>
 </element>
 <element name="C10" library="mb_caps-electro" package="050_020_1" value="10uF" x="26.67" y="13.97" smashed="yes">
 <attribute name="VALUE" x="25.4" y="11.811" size="0.8128" layer="27" ratio="12"/>
 </element>
 <element name="C11" library="mb_caps-electro" package="050_020_1" value="10uF" x="38.1" y="41.91" smashed="yes" rot="R270">
-<attribute name="VALUE" x="34.163" y="43.942" size="1.27" layer="27" ratio="12" rot="R270"/>
+<attribute name="VALUE" x="36.068" y="43.18" size="0.8128" layer="27" ratio="12" rot="R270"/>
 </element>
 <element name="C12" library="mb_caps-electro" package="063_025" value="100uF" x="45.72" y="22.86" smashed="yes" rot="R180">
 <attribute name="VALUE" x="47.19" y="25.257" size="0.8128" layer="27" ratio="12" rot="R180"/>
